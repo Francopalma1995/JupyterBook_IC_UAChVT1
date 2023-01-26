@@ -1,0 +1,836 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>19. Estructura de Madera &#8212; LIBRO VIRTUAL DE PROCESOS CONSTRUCTIVOS EN EL ÁREA DE EDIFICACIÓN</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="next" title="20. Muros y Tabiquerías" href="5TAB.html" />
+    <link rel="prev" title="18. Estructura Metálica" href="4EM.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="es">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">LIBRO VIRTUAL DE PROCESOS CONSTRUCTIVOS EN EL ÁREA DE EDIFICACIÓN</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../README.html">
+                    PLATAFORMA VIRTUAL DE PROCESOS CONSTRUCTIVOS EN EDIFICACIÓN
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Sector de la Construcción
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad1/1PIIC.html">
+   1. Sector de la construcción y Partes involucradas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad1/2PCIC.html">
+   2. Principales características de la industria de la construcción
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad1/3PC.html">
+   3. Proyecto de Construcción
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad1/4R.html">
+   4. Reglamentaciones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad1/5PyDC.html">
+   5. Permisos y derecho de la construcción
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Procesos contructivos
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad2/1PC.html">
+   6. Procesos Constructivos
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Obras Preliminares
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad3/1LyD.html">
+   7. Limpieza y desbroce
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad3/2CyMP.html">
+   8. Cierros y medidas de protección
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad3/3IF.html">
+   9. Instalación de Faena
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad3/4TyN.html">
+   10. Trazado y niveles
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Obra Gruesa
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="1MT.html">
+   11. Movimiento de tierra
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2EHG.html">
+   12. Estructura de hormigones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2EHF.html">
+   13. Fundaciones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2EHM.html">
+   14. Moldajes
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2EHEF.html">
+   15. Enfierradura
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="2EHH.html">
+   16. Hormigonado
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="3HA.html">
+   17. Estructuras de hormigón Armado
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="4EM.html">
+   18. Estructura Metálica
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   19. Estructura de Madera
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5TAB.html">
+   20. Muros y Tabiquerías
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="5CUB.html">
+   21. Estructura de Cubiertas
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Terminaciones
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad5/1T.html">
+   22. Terminaciones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad5/1TA.html">
+   23. Aislaciones
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad5/1THz.html">
+   24. Revestimientos Horizontales
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad5/1TVt.html">
+   25. Revestimientos Verticales
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad5/1TC.html">
+   26. Cubierta
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../unidad5/1TEj.html">
+   27. Ejemplos
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<div class="menu-dropdown menu-dropdown-launch-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Launch interactive content">
+      <i class="fas fa-rocket"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/contenidos/unidad4/5EM.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Launch on Binder"
+>
+  
+
+<span class="headerbtn__icon-container">
+  
+    <img src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="headerbtn__text-container">Binder</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../../_sources/contenidos/unidad4/5EM.ipynb"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.ipynb</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clasificacion-de-las-maderas">
+   19.1. Clasificación de las maderas
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#segun-su-uso">
+     19.1.1. Según su uso
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#para-uso-estructural">
+       19.1.1.1. Para uso estructural
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#maderas-de-uso-general">
+       19.1.1.2. Maderas de Uso General
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#segun-su-resistencia">
+     19.1.2. Según su resistencia
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#maderas-rojas-o-duras">
+       19.1.2.1. Maderas rojas o duras
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#maderas-blancas-o-blandas">
+       19.1.2.2. Maderas blancas o blandas
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#segun-su-grado-de-humedad">
+     19.1.3. Según su grado de humedad
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#madera-artificial">
+     19.1.4. Madera artificial
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#uniones">
+   19.2. Uniones
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#clavos">
+     19.2.1. Clavos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tornillos">
+     19.2.2. Tornillos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#grapas">
+     19.2.3. Grapas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conectores-y-pletinas">
+     19.2.4. Conectores y Pletinas
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tipos-de-estructuras">
+   19.3. Tipos de estructuras
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#entramado-horizontal">
+     19.3.1. Entramado Horizontal
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#entramado-vertical">
+     19.3.2. Entramado Vertical
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#techumbre">
+     19.3.3. Techumbre
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Estructura de Madera</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#clasificacion-de-las-maderas">
+   19.1. Clasificación de las maderas
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#segun-su-uso">
+     19.1.1. Según su uso
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#para-uso-estructural">
+       19.1.1.1. Para uso estructural
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#maderas-de-uso-general">
+       19.1.1.2. Maderas de Uso General
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#segun-su-resistencia">
+     19.1.2. Según su resistencia
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#maderas-rojas-o-duras">
+       19.1.2.1. Maderas rojas o duras
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#maderas-blancas-o-blandas">
+       19.1.2.2. Maderas blancas o blandas
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#segun-su-grado-de-humedad">
+     19.1.3. Según su grado de humedad
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#madera-artificial">
+     19.1.4. Madera artificial
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#uniones">
+   19.2. Uniones
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#clavos">
+     19.2.1. Clavos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tornillos">
+     19.2.2. Tornillos
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#grapas">
+     19.2.3. Grapas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#conectores-y-pletinas">
+     19.2.4. Conectores y Pletinas
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tipos-de-estructuras">
+   19.3. Tipos de estructuras
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#entramado-horizontal">
+     19.3.1. Entramado Horizontal
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#entramado-vertical">
+     19.3.2. Entramado Vertical
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#techumbre">
+     19.3.3. Techumbre
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <a class="reference internal image-reference" href="../../_images/E_Madera.jpg"><img alt="../../_images/E_Madera.jpg" src="../../_images/E_Madera.jpg" style="width: 700px;" /></a>
+<section class="tex2jax_ignore mathjax_ignore" id="estructura-de-madera">
+<h1><span class="section-number">19. </span>Estructura de Madera<a class="headerlink" href="#estructura-de-madera" title="Enlazar permanentemente con este título">#</a></h1>
+<p>Las estructuras de madera se forma por la unión de elementos, mediante elementos auxiliares, clavos, tornillos, pernos, con anclaje, conectores, entre otros.</p>
+<p>Un sistema formado por entramados de piezas de estos materiales corresponde a los muros de madera. Soleras (piezas inferiores), carreras (piezas superiores), montantes (pies derechos), cadenas (piezas horizontales que van entre los montantes) y diagonales (o tirantes, que ayudan a rigidizar los extremos de la estructura) conforman su composición principal. Estos pilares están espaciados a intervalos de cuarenta a sesenta cm. Las paredes de madera se pueden cubrir con una variedad de materiales, que incluyen placas de yeso, placas de fibrocemento, placas OSB, madera machihembrada, madera contrachapada ranurada, revestimiento y aglomerado (<a class="reference external" href="https://sodimac.falabella.com/sodimac-cl/page/sistema-compuesto-de-madera?sid=SO_HO__104974">Sodimac</a>, 2022).</p>
+<a class="reference internal image-reference" href="../../_images/indiceEMad.png"><img alt="../../_images/indiceEMad.png" src="../../_images/indiceEMad.png" style="width: 700px;" /></a>
+<section id="clasificacion-de-las-maderas">
+<h2><span class="section-number">19.1. </span>Clasificación de las maderas<a class="headerlink" href="#clasificacion-de-las-maderas" title="Enlazar permanentemente con este título">#</a></h2>
+<section id="segun-su-uso">
+<h3><span class="section-number">19.1.1. </span>Según su uso<a class="headerlink" href="#segun-su-uso" title="Enlazar permanentemente con este título">#</a></h3>
+<section id="para-uso-estructural">
+<h4><span class="section-number">19.1.1.1. </span>Para uso estructural<a class="headerlink" href="#para-uso-estructural" title="Enlazar permanentemente con este título">#</a></h4>
+<ul class="simple">
+<li><p>Grado Estructural N°1</p></li>
+<li><p>Grado Estructural N°2</p></li>
+<li><p>Grado Estructural N°3</p></li>
+<li><p>Grado Estructural N°4</p></li>
+</ul>
+</section>
+<section id="maderas-de-uso-general">
+<h4><span class="section-number">19.1.1.2. </span>Maderas de Uso General<a class="headerlink" href="#maderas-de-uso-general" title="Enlazar permanentemente con este título">#</a></h4>
+</section>
+</section>
+<section id="segun-su-resistencia">
+<h3><span class="section-number">19.1.2. </span>Según su resistencia<a class="headerlink" href="#segun-su-resistencia" title="Enlazar permanentemente con este título">#</a></h3>
+<section id="maderas-rojas-o-duras">
+<h4><span class="section-number">19.1.2.1. </span>Maderas rojas o duras<a class="headerlink" href="#maderas-rojas-o-duras" title="Enlazar permanentemente con este título">#</a></h4>
+<p>De mayor resistencia.</p>
+<a class="reference internal image-reference" href="../../_images/maderas_duras.png"><img alt="../../_images/maderas_duras.png" src="../../_images/maderas_duras.png" style="width: 400px;" /></a>
+</section>
+<section id="maderas-blancas-o-blandas">
+<h4><span class="section-number">19.1.2.2. </span>Maderas blancas o blandas<a class="headerlink" href="#maderas-blancas-o-blandas" title="Enlazar permanentemente con este título">#</a></h4>
+<p>De menor resistencia.</p>
+<a class="reference internal image-reference" href="../../_images/maderas_blandas.png"><img alt="../../_images/maderas_blandas.png" src="../../_images/maderas_blandas.png" style="width: 400px;" /></a>
+</section>
+</section>
+<section id="segun-su-grado-de-humedad">
+<h3><span class="section-number">19.1.3. </span>Según su grado de humedad<a class="headerlink" href="#segun-su-grado-de-humedad" title="Enlazar permanentemente con este título">#</a></h3>
+<ul class="simple">
+<li><p>Madera Verde: Tiene más de un 30% de humedad.</p></li>
+<li><p>Madera Húmeda: Tiene entre un 20% y un 30% de humedad.</p></li>
+<li><p>Madera Seca al Aire: Tiene entre un 13% y un 18% de humedad, que es la cantidad máxima que se puede secar de forma natural.</p></li>
+<li><p>Madera Seca en Cámara: La única forma de lograrlo es a través del secado artificial en cámara, y se encuentra en rangos por debajo del 12%.</p></li>
+</ul>
+</section>
+<section id="madera-artificial">
+<h3><span class="section-number">19.1.4. </span>Madera artificial<a class="headerlink" href="#madera-artificial" title="Enlazar permanentemente con este título">#</a></h3>
+<p>La madera artificial, a diferencia de la madera natural, tiene los siguientes beneficios:</p>
+<ul class="simple">
+<li><p>Estabilidad dimensional: Las fibras de madera que se recomponen en los tableros ya no pueden deformarse con el paso del tiempo al alternar su orientación.</p></li>
+<li><p>Economía circular: Los residuos de procesamiento, los materiales de baja calidad o las piezas recicladas también se incluyen en la preparación de tableros derivados de la madera, dándoles un nuevo propósito.</p></li>
+<li><p>Sostenibilidad en términos de medio ambiente: en lugar de talar muchos árboles, las tablas de madera se fabrican con los restos de materiales que estaban destinados a la eliminación.</p></li>
+</ul>
+<p><a class="reference external" href="https://www.emedec.com/maderas-artificiales-alternativas-a-la-madera-natural/">Maderas Artificales</a></p>
+<a class="reference internal image-reference" href="../../_images/madera_artificial.png"><img alt="../../_images/madera_artificial.png" src="../../_images/madera_artificial.png" style="width: 700px;" /></a>
+</section>
+</section>
+<section id="uniones">
+<h2><span class="section-number">19.2. </span>Uniones<a class="headerlink" href="#uniones" title="Enlazar permanentemente con este título">#</a></h2>
+<section id="clavos">
+<h3><span class="section-number">19.2.1. </span>Clavos<a class="headerlink" href="#clavos" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/union_clavos.jpg"><img alt="../../_images/union_clavos.jpg" src="../../_images/union_clavos.jpg" style="width: 400px;" /></a>
+</section>
+<section id="tornillos">
+<h3><span class="section-number">19.2.2. </span>Tornillos<a class="headerlink" href="#tornillos" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/union_tornillo.jpg"><img alt="../../_images/union_tornillo.jpg" src="../../_images/union_tornillo.jpg" style="width: 400px;" /></a>
+</section>
+<section id="grapas">
+<h3><span class="section-number">19.2.3. </span>Grapas<a class="headerlink" href="#grapas" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/union_grapas.jpg"><img alt="../../_images/union_grapas.jpg" src="../../_images/union_grapas.jpg" style="width: 400px;" /></a>
+</section>
+<section id="conectores-y-pletinas">
+<h3><span class="section-number">19.2.4. </span>Conectores y Pletinas<a class="headerlink" href="#conectores-y-pletinas" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/union_placas.jpg"><img alt="../../_images/union_placas.jpg" src="../../_images/union_placas.jpg" style="width: 400px;" /></a>
+</section>
+</section>
+<section id="tipos-de-estructuras">
+<h2><span class="section-number">19.3. </span>Tipos de estructuras<a class="headerlink" href="#tipos-de-estructuras" title="Enlazar permanentemente con este título">#</a></h2>
+<section id="entramado-horizontal">
+<h3><span class="section-number">19.3.1. </span>Entramado Horizontal<a class="headerlink" href="#entramado-horizontal" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/entramado_hzt.jpg"><img alt="../../_images/entramado_hzt.jpg" src="../../_images/entramado_hzt.jpg" style="width: 500px;" /></a>
+</section>
+<section id="entramado-vertical">
+<h3><span class="section-number">19.3.2. </span>Entramado Vertical<a class="headerlink" href="#entramado-vertical" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/entramado_vtl.jpg"><img alt="../../_images/entramado_vtl.jpg" src="../../_images/entramado_vtl.jpg" style="width: 500px;" /></a>
+</section>
+<section id="techumbre">
+<h3><span class="section-number">19.3.3. </span>Techumbre<a class="headerlink" href="#techumbre" title="Enlazar permanentemente con este título">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/techumbre.jpg"><img alt="../../_images/techumbre.jpg" src="../../_images/techumbre.jpg" style="width: 500px;" /></a>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./contenidos\unidad4"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="4EM.html" title="anterior página">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">anterior</p>
+            <p class="prev-next-title"><span class="section-number">18. </span>Estructura Metálica</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="5TAB.html" title="siguiente página">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">siguiente</p>
+        <p class="prev-next-title"><span class="section-number">20. </span>Muros y Tabiquerías</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Franco Palma Vargas<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
