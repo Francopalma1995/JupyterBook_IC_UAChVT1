@@ -1,0 +1,46 @@
+
+format: jb-book
+root: README
+parts:
+  - caption: Sector de la Construcción 
+    numbered: true
+    chapters:
+    - file: contenidos/unidad1/1PIIC
+    - file: contenidos/unidad1/2PCIC
+    - file: contenidos/unidad1/3PC
+    - file: contenidos/unidad1/4R
+    - file: contenidos/unidad1/5PyDC
+  - caption: Procesos contructivos
+    numbered: true
+    chapters:
+    - file: contenidos/unidad2/1PC
+  - caption: Obras Preliminares
+    numbered: true
+    chapters:
+    - file: contenidos/unidad3/1LyD
+    - file: contenidos/unidad3/2CyMP
+    - file: contenidos/unidad3/3IF
+    - file: contenidos/unidad3/4TyN
+  - caption: Obra Gruesa
+    numbered: true
+    chapters:
+    - file: contenidos/unidad4/1MT
+    - file: contenidos/unidad4/2EHG
+    - file: contenidos/unidad4/2EHF
+    - file: contenidos/unidad4/2EHM
+    - file: contenidos/unidad4/2EHEF
+    - file: contenidos/unidad4/2EHH
+    - file: contenidos/unidad4/3HA
+    - file: contenidos/unidad4/4EM
+    - file: contenidos/unidad4/5EM
+    - file: contenidos/unidad4/5TAB
+    - file: contenidos/unidad4/5CUB
+  - caption: Terminaciones
+    numbered: true
+    chapters:
+    - file: contenidos/unidad5/1T
+    - file: contenidos/unidad5/1TA
+    - file: contenidos/unidad5/1THz
+    - file: contenidos/unidad5/1TVt
+    - file: contenidos/unidad5/1TC
+    - file: contenidos/unidad5/1TEj
